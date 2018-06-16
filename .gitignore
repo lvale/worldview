@@ -1,7 +1,13 @@
-build
-dist
-node_modules
+/build
+/web/build
+/dist
+/node_modules
+/web/ext/node_modules/*
 python
+.python/
+.node-virtualenv/
+.ropeproject/
+*.pyc
 .project
 .settings
 .pydevproject
@@ -14,3 +20,8 @@ options
 \#*
 npm-debug.log
 .vagrant
+# Nightwatch stuff
+reports
+selenium-debug.log
+*.jar
+local.log
